@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py --data self_kpts.yaml --cfg yolov5s6_kpts_self.yaml --weights 'weights/last.pt' --batch-size 8 --img 960 --kpt-label

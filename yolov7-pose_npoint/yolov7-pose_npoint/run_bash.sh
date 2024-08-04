@@ -1,0 +1,1 @@
+python train_Ncla_nPoint.py --data data/myself.yaml --cfg cfg/yolov7-w6-pose.yaml --weights weights/yolov7-w6-person.pt --batch-size 8 --img 640 --kpt-label True --sync-bn SYNC_BN --device 0 --name yolov7-w6-pose --hyp data/hyp.pose.yaml
